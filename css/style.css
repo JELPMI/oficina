@@ -40,6 +40,9 @@ h2{
 }
 
 @media only screen and (max-width: 440px){
+  h1{
+    font-size: 3rem;
+  }
   #texto-top{
     margin-top: -115px;
   }
@@ -47,7 +50,7 @@ h2{
     background-color: white;
   }
   .parallax-container {
-  min-height: 500px !important;
+  min-height: 400px !important;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
