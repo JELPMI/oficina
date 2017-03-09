@@ -12,9 +12,25 @@
 * {
   font-family: JelpMi;
 }
+
+body{
+  background-image: url('../img/fondo_jelpmi2.png');
+}
+
 h1{
   font-family: JelpMi;
 }
+h2{
+  font-family: JelpMi;
+}
+h3{
+  font-family: JelpMi;
+}
+h4{
+  font-family: JelpMi;
+}
+
+h5{font-family: JelpMi;}
 .icon-color {
   color: #f64a6d !important;
 }
@@ -74,6 +90,7 @@ h2{
     margin-bottom: -100px;
   }
   #index-banner{
+        
         background-color: rgba(0,0,0,.2);
   }
 
