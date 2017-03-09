@@ -16,7 +16,7 @@ h1{
   font-family: JelpMi;
 }
 .icon-color {
-  color: #f64a6d;
+  color: #f64a6d !important;
 }
 nav ul a,
 nav .brand-logo {
