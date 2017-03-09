@@ -10,7 +10,9 @@ nav ul a,
 nav .brand-logo {
   color: #444;
 }
-
+nav {
+  background-color: #764494;
+}
 p {
   line-height: 2rem;
 }
@@ -18,15 +20,32 @@ p {
 .button-collapse {
   color: #26a69a;
 }
+body > nav > div > ul.right.hide-on-med-and-down > li > a{
+  color:white;
+}
+h2{
+  color: white;
+}
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
+  }
+
+  .parallax-container .parallax img{
+    margin-bottom: 120px;
+  }
+
+  #img-jelpmi img{
+    margin-bottom: -700px;
+  }
+  #index-banner{
+        background-color: rgba(0,0,0,.2);
   }
 
 @media only screen and (max-width : 992px) {

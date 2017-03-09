@@ -3,19 +3,90 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
-
+  <title>Jelpmi!</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '942803522486818'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+        fbq('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=942803522486818&ev=PageView&noscript=1" /></noscript>
+  <script>
+        (function() {
+            var w = window;
+            var ic = w.Intercom;
+            if (typeof ic === "function") {
+                ic('reattach_activator');
+                ic('update', intercomSettings);
+            } else {
+                var d = document;
+                var i = function() {
+                    i.c(arguments)
+                };
+                i.q = [];
+                i.c = function(args) {
+                    i.q.push(args)
+                };
+                w.Intercom = i;
+
+                function l() {
+                    var s = d.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'https://widget.intercom.io/widget/wrw9p6p8';
+                    var x = d.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(s, x);
+                }
+                if (w.attachEvent) {
+                    w.attachEvent('onload', l);
+                } else {
+                    w.addEventListener('load', l, false);
+                }
+            }
+        })()
+    </script>
+    <script>
+        (function(h, e, a, t, m, p) {
+            m = e.createElement(a);
+            m.async = !0;
+            m.src = t;
+            p = e.getElementsByTagName(a)[0];
+            p.parentNode.insertBefore(m, p);
+        })(window, document, 'script', 'https://u.heatmap.it/log.js');
+    </script>
 </head>
 <body>
-  <nav class="white" role="navigation">
+  <nav role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" href="#" class="brand-logo"><img src="img/JelpMi-03.png" alt=""></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">El servicio</a></li>
+        <li><a href="#">¿cómo funciona?</a></li>
+        <li><a href="https://servicios.jelpmi.mx">Inicia Sesión</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -29,18 +100,18 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center white-text">¿Necesitas ayuda con la limpieza de tu oficina?</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h2 class="header col s12 light">$77/Hora</h2>
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="https://servicios.jelpmi.mx" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-1">Pedir servicio</a>
         </div>
         <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="img/1.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
 
@@ -51,28 +122,28 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h2 class="center pink-text lighten-2"><i class="fa fa-mobile-phone"></i><i class="fa fa-laptop"></i></h2>
+            <h5 class="center">Fácil y rápido</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light center">Reserva desde la app o el sitio web</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h2 class="center brown-text"><img src="img/medalla.png" style="    height: 55px;margin: -15px;" alt=""></h2>
+            <h5 class="center">Confianza</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light center">Tu Jelpmi ha sido plenamente evaluado y calificado.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h2 class="center brown-text"><img src="img/manos.png" style="    height: 55px;margin: -15px;" alt=""></h2>
+            <h5 class="center">Generador de oportunidad</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light center">Apoya la economía de las familias mexicanas</p>
           </div>
         </div>
       </div>
@@ -85,23 +156,78 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h2 class="header col s12 light">¡Tan limpio que te sentirás como en casa!</h2>
+          <div class="row center">
+          <a href="https://servicios.jelpmi.mx" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-1">Pedir servicio</a>
+        </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="img/2.png" alt="Unsplashed background img 2"></div>
   </div>
 
   <div class="container">
     <div class="section">
 
       <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center pink-text lighten-2"><img src="img/edificio.png" style="    height: 55px;margin: -15px;" alt=""></h2>
+            <h5 class="center">Solicita</h5>
+
+            <p class="light center">Registrate y pide tu primer servicio.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><img src="img/calendario.png" style="    height: 55px;margin: -15px;" alt=""></h2>
+            <h5 class="center">Agenda</h5>
+
+            <p class="light center">Dinos día, hora, duración y recurrencia del servicio.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center pink-text lighten-2"><i class="fa fa-camera"></i></h2>
+            <h5 class="center">Datos de tu Jelpmi.</h5>
+
+            <p class="light center">Te brindaremos el nombre, foto, calificación y teléfono de la persona asignada.</p>
+          </div>
         </div>
       </div>
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center pink-text lighten-2"><i class="fa fa-bell"></i><i class="fa fa-laptop"></i></h2>
+            <h5 class="center">Notificaciones</h5>
+
+            <p class="light center">Recibe toda la información de tu servicio.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center pink-text lighten-2"><i class="fa fa-credit-card-alt"></i></h2>
+            <h5 class="center">Pago y facturación</h5>
+
+            <p class="light center">Realizamos cobro automaticamente una vez que el servicio finalice y únicamente por las horas de servicio.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center pink-text lighten-2"><i class="fa fa-star"></i></h2>
+            <h5 class="center">Encuesta</h5>
+
+            <p class="light center">Encuestas de calidad una vez que el servicio se realizó para brindar cada vez un mejor servicio.</p>
+          </div>
+        </div>
+      </div>
+
+
 
     </div>
   </div>
@@ -111,54 +237,95 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <a href="https://servicios.jelpmi.mx" id="download-button" class="btn-large waves-effect waves-light deep-purple lighten-1">Pedir servicio</a>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax" id="img-jelpmi"><img src="img/3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+   <section id="contacts" class="wide">
+            <div class="container">
+                <div class="row">
+                    <div id="contact-info" class="col-sm-12 col-md-6">
+                        <div class="section-title">
+                            <h4>Contacto</h4>
+                            <h3>¿Necesitas más de 60 horas al mes?</h3>
+                            <p> Ofrecemos paquetes personalizados</p>
+                        </div>
+                        <form id="contact-form" name="contactform" class="row">
+                            <div id="input_name" class="col-md-12">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Nombre"> </div>
+                            <div id="input_email" class="col-md-12">
+                                <input type="text" name="email" id="email" class="form-control" placeholder="Email"> </div>
+                            <div id="input_subject" class="col-md-12">
+                                <input type="text" name="subject" id="subject" class="form-control" placeholder="Asunto"> </div>
+                            <div id="input_message" class="col-md-12">
+                                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Tu mensaje..."></textarea>
+                            </div>
+                            <div id="form_btn" class="col-md-12">
+                                <input type="submit" value="Enviar" id="submit" class="btn btn-small btn-blue" style="height: 60px;"> </div>
+                            <div class="col-md-12 contact-form-msg"><span class="loading"></span></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  <footer id="footer">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+        <div class="row">
+            <div id="footer_copyright" class="col m8">
+                <p>&copy; 2016 <span>Jelpmi!</span>. Todos los derechos reservados.</p><a class="legal terminos" href="pdf/Privacidad.pdf" target="_blank">Privacidad</a>
+                <br><a class="legal terminos" href="pdf/Terminos.pdf" target="_blank">T&eacute;rminos y Condiciones</a></div>
+            <div id="footer-social" class="col m4 text-right">
+                <ul class="footer-icons-socials clearfix">
+                    <li><a class="foo-social ico-facebook" href="https://www.facebook.com/AppJelpMi" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="foo-social ico-twitter" href="https://twitter.com/Jelpmimx" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+                    <li><a class="foo-social ico-youtube" href="https://www.youtube.com/channel/UCsZDI4F7Or7di61JPFddNxg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a class="foo-social ico-instagram" href="https://www.instagram.com/jelpmimx" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
-  </footer>
+</footer>
 
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script defer src="js/contact_form.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/modernizr.custom.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.min.js" type="text/javascript"></script>
+    <script src="js/retina.min.js" type="text/javascript"></script>
+    <script src="js/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script defer src="js/count-to.min.js"></script>
+    <script src="js/jquery.prettyPhoto.min.js" type="text/javascript"></script>
+    <script defer src="js/jquery.flexslider.min.js" type="text/javascript"></script>
+    <script defer src="js/jquery.appear.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mixitup.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script defer src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script defer src="js/contact_form.min.js" type="text/javascript"></script>
+    <script src="js/custom.min.js" type="text/javascript"></script>
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-76627910-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
 
   </body>
 </html>
