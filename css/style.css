@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ body{
+
+ }
 
 nav ul a,
 nav .brand-logo {
@@ -27,6 +30,20 @@ h2{
   color: white;
 }
 
+@media only screen and (max-width: 440px){
+  #texto-top{
+    margin-top: -115px;
+  }
+  body{
+    background-color: white;
+  }
+  .parallax-container {
+  min-height: 500px !important;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+}
 .parallax-container {
   min-height: 450px;
   line-height: 0;
