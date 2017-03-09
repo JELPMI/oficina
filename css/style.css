@@ -5,10 +5,19 @@
  *
  * Made By MaterializeCSS.com
  */
- body{
-
- }
-
+ @font-face {
+    font-family: "JelpMi";
+    src: url('../fonts/gotham_rounded/GothamRoundedMedium_21022.ttf');
+}
+* {
+  font-family: JelpMi;
+}
+h1{
+  font-family: JelpMi;
+}
+.icon-color {
+  color: #f64a6d;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -59,7 +68,7 @@ h2{
   }
 
   #img-jelpmi img{
-    margin-bottom: -700px;
+    margin-bottom: -100px;
   }
   #index-banner{
         background-color: rgba(0,0,0,.2);
